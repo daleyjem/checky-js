@@ -14,7 +14,9 @@ HTML Markup:
 
 <!-- Initialize checky -->
 <script>
-  $('.checky').checky();
+  $(document).ready(function(){
+  	$('.checky').checky();
+  });
 </script>
 
 <!-- Our dropdown list -->
