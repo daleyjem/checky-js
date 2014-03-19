@@ -19,6 +19,7 @@
 	padding: 0.1em 0.4em;
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 5px;
 }
 
 .checky.active .checky-label {
@@ -44,10 +45,19 @@
 	border-top: none;
 	overflow-y: auto;
 	overflow-x: hidden;
+	background-color: white;
+	z-index: 100;
 }
 
 .checky.active .checky-options {
 	display: block;
+}
+
+.checky-item-header {
+	font-size: 0.75em;
+	text-transform: uppercase;
+	padding: 0.7em 0.8em;
+	background-color: #ddd;
 }
 
 .checky-options label {
@@ -55,6 +65,7 @@
 	background-color: white;
 	padding: 5px;
 	white-space: nowrap;
+	margin: 0;
 }
 
 .checky-options label:hover {
